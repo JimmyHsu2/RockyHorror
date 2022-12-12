@@ -9,6 +9,7 @@ namespace RockyHorror
         static void Main(string[] args)
         {
             var showing = new Showing();
+            showing.Location = "Brattle";
         }
     }
 }
