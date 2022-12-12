@@ -11,6 +11,10 @@ namespace RockyHorror
             var showing = new Showing();
             showing.Location = "Brattle";
             showing.NumberOfSeats = 250;
+            showing.ShowTimes = new List<DateTime>
+            {
+
+            }
         }
     }
 }
